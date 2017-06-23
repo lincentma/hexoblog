@@ -1,0 +1,115 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: LincentMa's Blog
+subtitle:
+description:
+author: LicentMa
+language: zh-Hans
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://lincentma.men
+root: /
+permalink: :title.html
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: [baidu_verify_8449cVzoMm.html, google331f0ff502c39111.html, README.md]
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+#per_page: 10
+#pagination_dir: page
+index_generator:
+  per_page: 5
+archive_generator:
+  per_page: 30
+  yearly: true
+  monthly: true
+tag_generator:
+  per_page: 20
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+Plugins: 
+  - hexo-generator-sitemap
+  - hexo-generator-baidu-sitemap
+  - hexo-generate-feed
+theme: next
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+- type: git
+  repo: 
+    github: git@github.com:lingma1993/lingma1993.github.io.git
+    coding: git@git.coding.net:lincentma/lincentma.git
+  branch: master
+- type: baidu_url_submitter
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# Baidu
+baidu_url_submit:
+  count: 5
+  host: lincentma.men
+  token: nqi5OZdh88riqBeE
+  path: baidu_urls.txt
+

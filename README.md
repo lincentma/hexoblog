@@ -1,2 +1,1 @@
-# hexo_blog
-blog backup
+backup hexo blog
