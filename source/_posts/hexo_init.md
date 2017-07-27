@@ -10,12 +10,17 @@ copyright: true
 
 ## Hexo参考文档
 
-- [NexT]: http://theme-next.iissnan.com/getting-started.html	"NexT"
-- [NexT优化]: http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html
+- [NexT]:  http://theme-next.iissnan.com/getting-started.html	"NexT"
+- [NexT优化]:  http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html
+
 ## Hexo搭建问题记录
 
 - 多说评论替换
 - 背景效果
 - 腾讯云搭建Hexo
+
+## Hexo 性能优化
+
+- [hexo博客进阶－性能优化]:  https://www.liuxinggang.com/2016-12-06-hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%8D%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/
 
 自己更换电脑，没有保存Hexo的源文件，借此机会重新部署学习，完善自己的博客。
